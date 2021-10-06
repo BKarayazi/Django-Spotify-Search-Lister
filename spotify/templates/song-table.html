@@ -1,0 +1,13 @@
+<table>
+{% for song in songs %}
+<tr>
+    <th>{{ song.artists.0.name }}</th>
+    <th>{{ song.name }}</th>
+    <th><img src="{{ song.album.images.2.url}}" alt=""></th>
+    <th><a href="{{ song.preview_url }}">Preview</a></th>
+
+</tr>
+{% endfor %}
+</table>
+
+<a href="http://127.0.0.1:9000/">Home</a>

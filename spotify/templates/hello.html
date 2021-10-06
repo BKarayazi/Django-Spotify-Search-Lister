@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<label for="genre">Please Pick A Genre</label>
+<input type="text" name="genre" id="genre">
+<button id="btn">go</button>
+
+<script>
+document.getElementById("btn").addEventListener("click", function() {
+req = document.getElementById("genre").value
+window.location = "http://127.0.0.1:8000/tracks/"+ req
+});
+</script>
+</body>
+</html>
