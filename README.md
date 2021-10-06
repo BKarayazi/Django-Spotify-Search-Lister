@@ -18,3 +18,6 @@ On windows open project folder using command prompt and type:
 
 or I also included launch.json inside files, so if you open project folder with Visual Studio Code and start the project it should also start the server at http://127.0.0.1:8000/.
 
+
+Soon i will remove credentials from /spotify/credentials.py , incase the project doesnt work in future try creating new credentials via https://developer.spotify.com/dashboard/applications
+
